@@ -2,10 +2,13 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import {
-  Mail, MapPin, Github, Linkedin, ExternalLink, Download,
+  Mail, MapPin, Github as GithubIcon, Linkedin as LinkedinIcon, ExternalLink, Download,
   Code2, Database, Wrench, Sparkles, GraduationCap, Award,
   Send, ArrowUpRight, Briefcase, Cpu, Globe,
 } from "lucide-react";
+
+const Github = GithubIcon;
+const Linkedin = LinkedinIcon;
 
 export const Route = createFileRoute("/")({
   component: Portfolio,
