@@ -104,14 +104,14 @@ const EDUCATION = [
     degree: "HSC",
     institute: "Jay Matric Higher Secondary School",
     location: "Salem, Tamil Nadu",
-    status: "Completed 2020",
+    status: "Completed 2022",
     description: "Percentage: 66.6",
   },
   {
     degree: "SSLC",
     institute: "Jay Matriculation School",
     location: "Salem, Tamil Nadu",
-    status: "Completed 2022",
+    status: "Completed 2020",
     description: "Percentage: 60.8",
   },
 ];
