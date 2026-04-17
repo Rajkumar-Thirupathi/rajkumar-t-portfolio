@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import {
   Mail, MapPin, ExternalLink, Download,
-  Code2, Database, Wrench, Sparkles, GraduationCap, Award,
+  Code2, Database, Wrench, Sparkles, GraduationCap,
   Send, ArrowUpRight, Briefcase, Cpu, Globe,
 } from "lucide-react";
 
@@ -568,27 +568,6 @@ function Education() {
   );
 }
 
-/* ---------------- Certifications ---------------- */
-function Certifications() {
-  return (
-    <section id="certifications" className="py-20 sm:py-28">
-      <div className="mx-auto max-w-5xl px-4">
-        <SectionHeader tag="Certifications" title="Credentials & badges" />
-        <Reveal>
-          <div className="glass rounded-2xl p-10 text-center hover-lift">
-            <div className="mx-auto h-14 w-14 rounded-2xl gradient-bg flex items-center justify-center glow-shadow">
-              <Award className="h-7 w-7 text-primary-foreground" />
-            </div>
-            <h3 className="mt-5 text-xl font-semibold">Certifications coming soon</h3>
-            <p className="mt-2 text-muted-foreground max-w-md mx-auto">
-              Currently pursuing certifications in Java, Spring Boot, and Full Stack Development. Check back soon!
-            </p>
-          </div>
-        </Reveal>
-      </div>
-    </section>
-  );
-}
 
 /* ---------------- CTA ---------------- */
 function CTA() {
@@ -771,7 +750,7 @@ function Portfolio() {
       <Skills />
       <Projects />
       <Education />
-      <Certifications />
+      
       <CTA />
       <Contact />
       <Footer />
