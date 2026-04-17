@@ -48,7 +48,20 @@ const STUDENT = {
   typingRoles: ["Java Developer", "Full Stack Developer", "Web Developer"],
 };
 
-const LOGO_URL = "https://tapportfolio.lovable.app/assets/logo-CxDGoOCE.png";
+function BrandLogo({ className = "" }: { className?: string }) {
+  return (
+    <span className={`inline-flex items-center gap-2 font-display font-bold tracking-tight ${className}`}>
+      <span className="relative h-8 w-8 rounded-lg bg-gradient-to-br from-primary via-accent to-primary-glow grid place-items-center shadow-[0_0_24px_-4px_hsl(var(--primary)/0.6)]">
+        <span className="text-sm text-primary-foreground font-black">R</span>
+        <span className="absolute -inset-px rounded-lg ring-1 ring-white/20" />
+      </span>
+      <span className="text-lg">
+        <span className="gradient-text">Raj</span>
+        <span className="text-foreground">.dev</span>
+      </span>
+    </span>
+  );
+}
 
 const SKILLS = [
   { group: "Frontend", icon: Globe, items: ["HTML", "CSS", "JavaScript", "React"] },
@@ -183,12 +196,8 @@ function Navbar() {
             scrolled ? "glass-strong glow-shadow" : "glass"
           }`}
         >
-          <a href="#home" className="flex items-center gap-2 group">
-            <img
-              src={LOGO_URL}
-              alt="TAP Academy"
-              className="h-9 w-auto transition-transform duration-300 group-hover:scale-105"
-            />
+          <a href="#home" className="flex items-center gap-2 group" aria-label="Back to top">
+            <BrandLogo className="transition-transform duration-300 group-hover:scale-105" />
           </a>
 
           <nav className="hidden md:flex items-center gap-1">
@@ -740,7 +749,7 @@ function Footer() {
     <footer className="border-t border-white/10 mt-10">
       <div className="mx-auto max-w-7xl px-4 py-10 grid sm:grid-cols-3 gap-6 items-center">
         <div className="flex items-center gap-3">
-          <img src={LOGO_URL} alt="TAP Academy" className="h-9 w-auto" />
+          <BrandLogo />
         </div>
         <p className="text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} <span className="gradient-text font-semibold">{STUDENT.name}</span>. All rights reserved.
