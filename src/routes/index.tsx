@@ -55,10 +55,7 @@ function BrandLogo({ className = "" }: { className?: string }) {
         <span className="text-sm text-primary-foreground font-black">R</span>
         <span className="absolute -inset-px rounded-lg ring-1 ring-white/20" />
       </span>
-      <span className="text-lg">
-        <span className="gradient-text">Raj</span>
-        <span className="text-foreground">.dev</span>
-      </span>
+      <span className="text-lg gradient-text">Rajkumar</span>
     </span>
   );
 }
