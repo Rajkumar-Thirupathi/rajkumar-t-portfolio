@@ -39,7 +39,7 @@ const STUDENT = {
   socials: {
     linkedin: "https://www.linkedin.com/in/rajkumar-t07",
     github: "https://github.com/Rajkumar-Thirupathi",
-    portfolio: "https://www.linkedin.com/in/rajkumar-t07",
+    portfolio: "https://rajkumar-t-portfolio.lovable.app/",
   },
   about: {
     short: "Software developer with knowledge in Java, Spring Boot, MySQL, and responsive web development.",
@@ -76,8 +76,8 @@ const PROJECTS = [
     description:
       "Designed and developed a responsive personal portfolio website to showcase skills, projects, and contact details using modern web technologies.",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    demo: "https://www.linkedin.com/in/rajkumar-t07",
-    github: "https://www.linkedin.com/in/rajkumar-t07",
+    demo: "https://rajkumar-t-portfolio.lovable.app/",
+    github: "https://github.com/Rajkumar-Thirupathi/rajkumar-t-portfolio",
   },
   {
     title: "AI-Based Medical Imaging for Early Lung Cancer Detection",
@@ -86,8 +86,8 @@ const PROJECTS = [
     description:
       "Developed an AI-based medical imaging system for early lung cancer detection using deep neural networks. Analyzes CT & PET scan images to identify abnormal patterns and improve early diagnosis accuracy.",
     tech: ["Python", "Deep Learning", "CNN", "TensorFlow", "OpenCV", "NumPy", "Pandas"],
-    demo: "https://www.linkedin.com/in/rajkumar-t07",
-    github: "https://www.linkedin.com/in/rajkumar-t07",
+    demo: "https://github.com/Rajkumar-Thirupathi",
+    github: "https://github.com/Rajkumar-Thirupathi",
   },
 ];
 
