@@ -32,7 +32,7 @@ const STUDENT = {
   title: "Full Stack Developer",
   tagline: "Aspiring Java Developer",
   profilePic: "https://www.image2url.com/r2/default/images/1776362142827-5ecf2f53-4802-4066-95e3-e3c573e7df10.jpg",
-  resume: "https://drive.google.com/file/d/13WzmAIAQ9y5HwKuvNusNA6hUs7G7wtle/view?usp=drivesdk",
+  resume: "https://drive.google.com/file/d/1JE-_rbtyoIVslof0V0p_tcCiN7o7qU7I/view?usp=sharing",
   email: "trajkumarslm15@gmail.com",
   location: "Salem, Tamil Nadu",
   domain: "Web Developer",
