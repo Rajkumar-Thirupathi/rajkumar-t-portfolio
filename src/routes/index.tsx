@@ -6,6 +6,8 @@ import {
   Code2, Database, Wrench, Sparkles, GraduationCap,
   Send, ArrowUpRight, Briefcase, Cpu, Globe,
 } from "lucide-react";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
+
 
 function Github({ className = "" }: { className?: string }) {
   return (
@@ -32,7 +34,7 @@ const STUDENT = {
   title: "Full Stack Developer",
   tagline: "Aspiring Java Developer",
   profilePic: "https://www.image2url.com/r2/default/images/1776362142827-5ecf2f53-4802-4066-95e3-e3c573e7df10.jpg",
-  resume: "https://drive.google.com/file/d/1JE-_rbtyoIVslof0V0p_tcCiN7o7qU7I/view?usp=sharing",
+  resume: resumeAsset.url,
   email: "trajkumarslm15@gmail.com",
   location: "Salem, Tamil Nadu",
   domain: "Web Developer",
@@ -70,26 +72,27 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: "Personal Portfolio",
-    status: "Completed",
+    title: "Hair Hunter",
+    status: "Live",
     category: "Web Application",
     description:
-      "Designed and developed a responsive personal portfolio website to showcase skills, projects, and contact details using modern web technologies.",
+      "A responsive salon/hair care website built with modern web technologies, showcasing services, styles, and booking information with a clean UI and smooth interactions.",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    demo: "https://rajkumar-t-portfolio.lovable.app/",
-    github: "https://github.com/Rajkumar-Thirupathi/rajkumar-t-portfolio",
+    demo: "https://hairhunter.netlify.app/",
+    github: "https://github.com/Rajkumar-Thirupathi/hairhunter-website",
   },
   {
-    title: "AI-Based Medical Imaging for Early Lung Cancer Detection",
-    status: "Completed",
-    category: "AI / Machine Learning",
+    title: "World Tiger Squad Gym",
+    status: "Live",
+    category: "Web Application",
     description:
-      "Developed an AI-based medical imaging system for early lung cancer detection using deep neural networks. Analyzes CT & PET scan images to identify abnormal patterns and improve early diagnosis accuracy.",
-    tech: ["Python", "Deep Learning", "CNN", "TensorFlow", "OpenCV", "NumPy", "Pandas"],
-    demo: "https://github.com/Rajkumar-Thirupathi",
-    github: "https://github.com/Rajkumar-Thirupathi",
+      "A full-stack gym website with membership plans, trainer profiles, and class schedules. Deployed on Railway with a responsive, performance-focused design.",
+    tech: ["HTML5", "CSS3", "JavaScript", "Node.js"],
+    demo: "https://world-tiger-squad-gym-production.up.railway.app/",
+    github: "https://github.com/Rajkumar-Thirupathi/world-tiger-squad-gym",
   },
 ];
+
 
 const EDUCATION = [
   {
